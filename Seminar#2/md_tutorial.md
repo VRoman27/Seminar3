@@ -3,6 +3,53 @@
 ## Как добавить заголовки
 
 ### Списки
+Для разметки неупорядоченных списков можно использовать
+или `*`, или `-`, или `+`:
+```
+* Первый
+- Второй
++ Третий
+```
+Пример:
+* Первый
+- Второй
++ Третий
+
+Вложенные пункты создаются четырьмя пробелами перед
+маркером пункта:
+```
+* Основной
+    * Вложенный
+```
+Пример:
+* Основной
+    * Вложенный
+
+Для упорядоченного списка нужно напечатать любую цифру с точкой вначале строки:
+```
+1. Первый
+2. Второй
+3. Третий
+0. Четвёртый
+9. Пятый
+```
+Пример:
+1. Первый
+2. Второй
+3. Третий
+0. Четвёртый
+9. Пятый
+
+Для оформления списка с абзацами необходимо добавить четыре пробела или один tab вначале:
+```
+    * Раз абзац. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    * Два абзац. Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+```
+Пример:
+
+    * Раз абзац. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    * Два абзац. Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+
 
 ## Как добавить исходный код
 
